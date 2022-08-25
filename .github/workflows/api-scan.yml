@@ -16,6 +16,6 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           docker_name: 'owasp/zap2docker-stable'
           format: openapi
-          target: 'https://zimmergren.net/security-scanning-with-github-actions-and-owasp-zap/'
+          target: 'https://zimmergren.net/'
           rules_file_name: '.zap-api-scan/rules.tsv'
           cmd_options: '-a'
