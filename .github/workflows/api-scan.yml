@@ -16,6 +16,5 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           docker_name: 'owasp/zap2docker-stable'
           format: openapi
-          target: 'https://stackoverflow.com/'
-          rules_file_name: '.zap-api-scan/rules.tsv'
+          target: 'https://dev.to/'
           cmd_options: '-a'
